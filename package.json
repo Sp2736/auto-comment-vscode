@@ -1,0 +1,39 @@
+{
+  "name": "logic-commenter",
+  "displayName": "logic-commenter",
+  "description": "Generates logic comments.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [],
+  "contributes": {
+    "commands": [
+      {
+        "command": "logic-commenter.addComment",
+        "title": "Add Logic Comment"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "logic-commenter.addComment",
+          "group": "modification"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.3.1"
+  }
+}
