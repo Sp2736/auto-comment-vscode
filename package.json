@@ -3,7 +3,7 @@
   "license": "MIT",
   "displayName": "Logic Commenter by SP",
   "description": "Generates AI-powered logic comments.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "icon":"icon.png",
   "publisher": "sp2736",
   "repository": {
