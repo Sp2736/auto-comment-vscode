@@ -86,7 +86,7 @@ export function activate(context: vscode.ExtensionContext): void {
       const model = genAI.getGenerativeModel({
         model: "gemini-2.5-flash",
         generationConfig: {
-          maxOutputTokens: 300, // Had to increase token limit due to high-process thinking
+          maxOutputTokens: 350, // Had to increase token limit due to high-process thinking
           temperature: 0.4, // Decent creativity update
         },
       });

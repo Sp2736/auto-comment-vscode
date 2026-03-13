@@ -32,12 +32,14 @@
     }
   },
   "scripts": {
-    "compile": "tsc -p ./"
+    "compile": "tsc -p ./",
+    "bundle": "esbuild ./src/extension.ts --bundle --outfile=out/extension.js --external:vscode --format=cjs --platform=node"
   },
   "devDependencies": {
     "@types/node": "^25.4.0",
     "@types/vscode": "^1.90.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "esbuild": "^0.20.1"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -47,6 +49,7 @@
     "out",
     "package.json",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "icon.png"
   ]
 }
