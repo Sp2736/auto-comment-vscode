@@ -57,3 +57,12 @@ Explore my other visual and productivity tools for VS Code:
 * ☀️ [**White Devil**](https://marketplace.visualstudio.com/items?itemName=sp2736.white-devil-by-sp): A crisp, modern light theme built for daylight clarity and minimalism.
 
 ---
+
+
+---
+
+## 📦 Project Snapshot
+
+<!--ARCHIVE_STATS_START-->
+<!-- auto-generated — do not edit manually -->
+<!--ARCHIVE_STATS_END-->
